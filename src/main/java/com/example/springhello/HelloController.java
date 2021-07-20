@@ -9,5 +9,10 @@ public class HelloController {
 	@RequestMapping(value = "/")
 	   public String hello() {
 	      return "Hello World from Tomcat";
-	   }
+		}
+	
+	@RequestMapping(value = "/test")
+	   public String test() {
+	      return "Test jenkin";
+		}
 }
